@@ -68,7 +68,7 @@
 
 ->Creando llave SSH. en terminal WSL
 
-    cd ~			->nos lelvara de donde estemos al home del WSL
+    cd ~			->nos llevará de donde estemos al home del WSL
     ssh-keygen -t rsa -b 4096 -C "x"
     	lease asi:
     		ssh-keygen  ->comando
