@@ -177,6 +177,7 @@ por convención la rama principal default llamada master, se debe renombrar a ma
     	git commit -amend                         ->se usa después de haber hecho un commit y darse cuenta que no se fue un archivo y queremos "reparar" el commit
     												entonces, se hace un git add y luego  el git commit --amend
     												actualizara el ultimo commit y su mensaje sin generar un nuevo NumCommit
+    												después de actualizar el mensaje, para salir del editor con las instrucciones del editor, sales y guardas y ya.
     	git reset HEAD                            ->saca los cambios de staging, pero no los borra. Es lo opuesto a git add.
 
     .- Volver en el tiempo
