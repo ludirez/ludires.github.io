@@ -5,20 +5,62 @@ section{
 	justify-content: center;
 	align-items: center;
 }
-
-.h1{
-	font-size: 2.5rem;
+body{
+	font-size: 1rem;
 }
-
-
+.navbar{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.5rem;
+}
+.seccion-titulo{
+	font-size: 2rem;
+	font-family: 'Boogaloo', cursive;
+	padding: 15px, 0;
+}
+.seccion-texto{
+	font-size: 1.5rem;
+	font-family: 'Shadows Into Light', cursive;
+}
 
 /* section Hero */
 .hero{	
 	min-height: 450px;
 	text-align: center;
-	background-color: #f5f6f7;
+}
+.hero-principal h1{
+	font-size: 2.5rem;
+	font-family: 'Boogaloo', cursive;
+	/* font-family: 'Alkatra', cursive; */
+	/* font-family: 'Righteous', cursive; */	
+}
+.hero-principal  h2{
+	font-size: 2rem;
+	color: #615151;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 .img-profile{
 	max-width: 150px;
+}
+
+/* seccion sobre mi */
+.seccion-oscura{
+	background-color: #1b1b32;
+	color: white;
+}
+.sobre-mi{
+	height: 500px;
+	padding: 10px;
+}
+.sobre-mi .contenedor{
+	max-width: 600px;
+	text-align: center;
+}
+
+
+/* @media */
+@media screen and (min-width: 700px){
+	.hero-inferior-img{
+		max-width: 600px;
+	}
 }
