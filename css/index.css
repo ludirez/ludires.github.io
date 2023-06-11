@@ -8,17 +8,18 @@ section{
 body{
 	font-size: 1rem;
 }
+p{
+	margin: 0;
+}
 .navbar{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 1.5rem;
 }
-.seccion-titulo{
+.titulos{
 	font-size: 2rem;
 	font-family: 'Boogaloo', cursive;
-	/* margin: 10px 0; */
-	padding: 15px, 0;
 }
-.seccion-texto{
+.textos{
 	font-size: 1.5rem;
 	font-weight:600;
 	letter-spacing: 1.5px;
@@ -67,8 +68,9 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	transition: all 0.2s ease-in;
+	/* height: 800px; */
 }
 .experiencia .columna:hover {
 	color: white;
@@ -77,16 +79,13 @@ body{
 .experiencia{
 	padding: 40px;
 }
-.experiencia .row div{
-	/* min-height: 200px; */
-}
+
 .experiencia i{
 	font-size: 2.5rem;
-	
 }
 .badges-contenedor{
 	font-size: 1.5rem;
-	margin: 12px 0;
+	/* margin: 12px 0; */
 }
 .badge{
 	margin: 8px;
@@ -103,6 +102,31 @@ a.freeCodeCamp{
 	border: 1px solid white;
 	font-weight: bold;
 }
+.carousel-contenedor img{
+	height: 100px;
+}
+.ex-encabezado{
+	/* border: 1px red solid; */
+}
+.ex-cuerpo{
+	/* border: 1px blue solid; */
+}
+.ex-footer{
+	/* border: 1px green solid; */
+}
+div.ex-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100px;
+}
+div.ex-cuerpo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 0;
+}
+
 
 /* @media */
 @media screen and (min-width: 700px){
