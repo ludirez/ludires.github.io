@@ -94,16 +94,25 @@ p{
 a.platzi{
 	background-color: #98CA3F;
 	/* border: none; */
-	border: 1px solid white;
+	border: 1px solid #98CA3F;
 	font-weight: bold;
+	color: black;
+}
+a.platzi:hover{
+	background-color: transparent;
+	color: #98CA3F;
+	border: 1px solid #98CA3F;
 }
 a.freeCodeCamp{
 	background-color: #0A0A23;
 	border: 1px solid white;
 	font-weight: bold;
 }
-.carousel-contenedor img{
-	height: 100px;
+a.freeCodeCamp:hover{
+	background-color: white;
+	color: #0A0A23;
+	border: 1px solid #0A0A23;
+
 }
 .ex-encabezado{
 	/* border: 1px red solid; */
@@ -114,17 +123,40 @@ a.freeCodeCamp{
 .ex-footer{
 	/* border: 1px green solid; */
 }
-div.ex-footer{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: 100px;
-}
 div.ex-cuerpo{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 20px 0;
+}
+div.ex-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+}
+
+div.t-galery{
+	/* border: 1px red  solid; */
+	display: flex;
+	width: 250px;
+	height: 100px;
+}
+div.t-galery img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .25s ease;
+}
+div.t-galery img:hover{
+	cursor: crosshair;
+	width: 100px; 
+	opacity: 1;
+	filter: contrast(120%);
+	overflow: visible;
+
 }
 
 
