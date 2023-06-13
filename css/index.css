@@ -209,6 +209,17 @@ div.t-galery img:hover{
 }
 
 
+/* Artículos */
+.articulos{
+	min-height: 400px;
+	padding: 30px;
+}
+.articulos .card{
+	width: 80%;
+	max-width: 600px;
+	margin: 25px 0;
+}
+
 
 /* @media */
 @media screen and (min-width: 700px){
