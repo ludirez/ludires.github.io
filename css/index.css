@@ -1,4 +1,12 @@
 /* General styles */
+google-fonts{
+font-family: 'Alkatra', cursive;
+font-family: 'Boogaloo', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Ubuntu Mono', monospace;
+}
+
 section{
 	display: flex;
 	flex-direction: column;
@@ -53,7 +61,7 @@ p{
 	color: white;
 }
 .sobre-mi{
-	height: 500px;
+	min-height: 500px;
 	padding: 10px;
 }
 .sobre-mi .contenedor{
@@ -161,7 +169,7 @@ div.t-galery img:hover{
 /* Proyectos */
 .proyectos-recientes{
 	padding: 40px;
-	height: 600px;
+	min-height: 600px;
 }
 .proyectos-recientes img{
 	height: 100%;
@@ -249,10 +257,12 @@ div.t-galery img:hover{
 }
 .container .testimonios-texto{
 	max-width: 80%;
-	font-size: 1.2rem;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1.1rem;
 	text-align: center;
 }
 .testimonio-info .textos{
+	font-family: 'Ubuntu Mono', monospace;
 	font-size: 0.9rem;
 	color: #656060;
 	text-align: center;
