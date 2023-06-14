@@ -275,13 +275,13 @@ div.t-galery img:hover{
 /* sección Contacto */
 .contacto .container{
 	max-width: 1100px;
-	min-height: 200px;
+	min-height: 100px;
 	text-align: center;
 	padding: 20px;
 }
 .rectangulo{
 	margin: auto;
-	margin-top: -5rem;
+	margin-top: -6rem;
 	background-color: rgb(13, 110, 253);
 	border-radius: 10px;
 	box-shadow: 0px 1px 4px 1px white;
@@ -315,9 +315,48 @@ div.row div{
 	padding: 12px 0;
 }
 
+/* footer */
+footer{
+	min-height: 250px;
+}
+footer img{
+	height: 100px;
+	border-radius: 20px;
+}
+.footer-texto{
+	padding: 24px;
+	margin-bottom: 24px;
+}
+.icono-redes a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	width:  60px;
+	border: 1px white solid;
+	border-radius: 50%;
+	margin: 0 10px;
+	transition: all .2s ease-in;
+}
 
+.icono-redes i{
+	color: white;
+	font-size: 2rem;
+	transition: all .2s ease-in;
+}
 
+.icono-redes a:hover{
+	background-color: white;
+}
+.icono-redes a:hover i{
+	color:#0A0A23;
+}
 
+.copyright{
+	font-size: .8rem;
+	color: #aeaeae;
+	padding: 20px;
+}
 
 
 /* @media */
