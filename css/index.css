@@ -229,7 +229,7 @@ div.t-galery img:hover{
 	margin: 25px 0;
 }
 
-/* Testimonios */
+/* ----   Testimonios */
 .testimonios{
 	padding: 40px 40px 80px 40px;
 	min-height: 600px;
@@ -239,7 +239,7 @@ div.t-galery img:hover{
 	max-width: 800px;
 }
 .carousel-item{
-	height: 400px;
+	min-height: 400px;
 	/* border: 1px yellowgreen solid */
 }
 .carousel-item .container{
@@ -272,9 +272,65 @@ div.t-galery img:hover{
 	margin-top: 12px;
 }
 
+/* sección Contacto */
+.contacto .container{
+	max-width: 1100px;
+	min-height: 200px;
+	text-align: center;
+	padding: 20px;
+}
+.rectangulo{
+	margin: auto;
+	margin-top: -5rem;
+	background-color: rgb(13, 110, 253);
+	border-radius: 10px;
+	box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .row{
+	width: 100%;
+	/* display: flex; */
+	align-items: center;
+}
+.contacto .descripcion{
+	
+}
+.btn-contacto:hover{
+	background-color: white;
+	color: #0A0A23;
+}
+
+.btn-contacto{
+	color: white;
+	background-color: transparent;
+	border: 1px white solid;
+	padding: 1rem 2rem;
+	/* margin: 10px; */
+	border-radius: 10px;
+	transition: all 0.2s ease-in-out;
+}
+.btn-contacto i{
+	transition: all 0.2s ease-in-out;
+}
+div.row div{
+	padding: 12px 0;
+}
+
+
+
+
+
+
 /* @media */
 @media screen and (min-width: 700px){
 	.hero-inferior-img{
 		max-width: 600px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.img-testimonials{
+		height: 80px;
+	}
+	.container .textos{
+		/* font-size: 0.9rem; */
 	}
 }
