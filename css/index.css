@@ -81,8 +81,10 @@ p{
 	/* height: 800px; */
 }
 .experiencia .columna:hover {
-	color: white;
-	background-color: #1b1b32;
+	color: #1b1b32;
+	border: 3px #1b1b32 outset;
+	
+	/* background-color: #1b1b32; */
 }
 .experiencia{
 	padding: 40px;
@@ -149,7 +151,7 @@ div.t-galery{
 	/* border: 1px red  solid; */
 	display: flex;
 	width: 250px;
-	height: 100px;
+	height: 120px;
 }
 div.t-galery img{
 	width: 0px;
@@ -180,9 +182,11 @@ div.t-galery img:hover{
 	transition: all 0.2s ease;
 }
 .proyecto-contenedor{
-	padding-top: 60px;
-	margin-bottom: 40px;
+	padding-top: 30px;
+	margin-bottom: 30px;
 }
+
+
 .overlay{
 	transition: all 0.2s ease;
 	opacity: 0;
@@ -192,18 +196,18 @@ div.t-galery img:hover{
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
-.overlay p{
-	font-size: 25px;
-}
+
 .proyecto{
 	position: relative;
 }
 .proyecto:hover img{
 	opacity: 0.2;
 }
+
 .proyecto:hover .overlay{
 	opacity: 1;
 }
+
 .overlay .iconos-proyecto{
 	display: flex;
 }
@@ -213,10 +217,30 @@ div.t-galery img:hover{
 	margin: 10px;
 }
 .btn-info{
-	font-size: 1.5rem;
-	
+	font-size: 1.5rem;	
 }
 
+
+
+div.tecnologias-proyectos.top-0{
+	background-color: rgb(250, 250, 250);
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #0A0A23;
+}
+.tecnologias-proyectos{
+	height: 70px;
+	display: flex;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.tecnologias-proyectos img{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
 
 /* Artículos */
 .articulos{
@@ -301,8 +325,8 @@ div.t-galery img:hover{
 
 .btn-contacto{
 	color: white;
-	background-color: transparent;
-	border: 1px white solid;
+	background-color: #45C655;
+	border: 1px #45C655 solid;
 	padding: 1rem 2rem;
 	/* margin: 10px; */
 	border-radius: 10px;
