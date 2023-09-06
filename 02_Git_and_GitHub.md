@@ -46,7 +46,7 @@
 
     	->mostrará la key.pub en consola, copiar y pegar en GitHub: Settings ->SSH and GPG keys -> Add New SSH key.
 
-Creamos repositorio y el mismo nos dará la opcion de copiar una ruta SSH. buscamos ese URL y copiamos
+Creamos repositorio y el mismo nos dará la opción de copiar una ruta SSH. buscamos ese URL y copiamos
 vamos a la terminal WSL y donde tengas pensado guardar y mantener tus proyectos:
 
     git clone xxx@xxx.xxx.git
@@ -96,6 +96,8 @@ Luego de esta configuración volvemos a hacer push
 
     3.- En consola /...nuevoProyecto$  git init
     	iniciara el seguimiento para todo lo que se haga en la actual carpeta
+
+    		:~$ rm -rf .git			->borrará la carpeta git. se usa en caso de haber errado la ruta de inicio deseada
 
     4.- Configurar git para enlazarle con github - omitir si ya se ha configurado
     	git config --list --show-origin     ->para mostrar usuario configurado
